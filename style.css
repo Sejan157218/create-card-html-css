@@ -1,0 +1,28 @@
+
+.card{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);  
+}
+
+.my-card {
+    padding: 2px;
+}
+
+.card {
+    text-align: center;
+    padding: 2%;
+}
+
+
+.card-del {
+    margin: 25px;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 24px;
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
